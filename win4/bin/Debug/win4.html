@@ -1,0 +1,37 @@
+<html>
+<body>
+    win4
+    <br />
+    <textarea id="inText" style="height: 50px; width: 200px;"></textarea>
+
+    <label><input name="Fruit" type="checkbox" value="0" />win1 </label>
+    <label><input name="Fruit" type="checkbox" value="1" />win2 </label>
+    <label><input name="Fruit" type="checkbox" value="2" />win3 </label>
+
+    <button onclick="win4Click()">发送</button>
+    <br />
+    接收
+    <div id="log"></div>
+</body>
+<script>
+    function win4Click() {
+        var inText = document.getElementById("inText");
+        var names = document.getElementsByName('Fruit');
+        var values = "";
+        for (var i = 0; i < names.length; i++) {
+            if (names[i].checked) {
+                values += names[i].value.toString() + ",";
+            }
+        }
+        if (values === "") {
+            alert("请选择");
+            return;
+        }
+        window.external.ClickEvent(inText.value, values);
+    }
+    function addMesage(msg) {
+        var log = document.getElementById('log');
+        log.innerHTML = log.innerHTML + "<p>" + msg + "</p>";
+    }
+</script>
+</html>

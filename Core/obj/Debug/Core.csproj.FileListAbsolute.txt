@@ -1,0 +1,9 @@
+c:\users\admin\documents\visual studio 2013\Projects\NamedPipeTest\Core\bin\Debug\Core.dll
+c:\users\admin\documents\visual studio 2013\Projects\NamedPipeTest\Core\bin\Debug\Core.pdb
+c:\users\admin\documents\visual studio 2013\Projects\NamedPipeTest\Core\obj\Debug\Core.dll
+c:\users\admin\documents\visual studio 2013\Projects\NamedPipeTest\Core\obj\Debug\Core.pdb
+C:\Users\鸿神\Desktop\NamedPipeTest\Core\bin\Debug\Core.dll
+C:\Users\鸿神\Desktop\NamedPipeTest\Core\bin\Debug\Core.pdb
+C:\Users\鸿神\Desktop\NamedPipeTest\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
+C:\Users\鸿神\Desktop\NamedPipeTest\Core\obj\Debug\Core.dll
+C:\Users\鸿神\Desktop\NamedPipeTest\Core\obj\Debug\Core.pdb
